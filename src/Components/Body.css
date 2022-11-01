@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+.buttonHolder {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.header {
+    width: 30%;
+    margin-left: 47%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.share {
+    padding-left: 30%;
+}
+
+.imgHolder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding-left: 37%;
+    
+}
+
+.img2 {
+    width: 40px;
+    height: 39px;
+}
+
+.img3 {
+    width: 24px;
+    height: 23.45px;
+}
+
+.footerHolder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 0.1px solid #667085;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+
+.img4 {
+    width: 100px;
+}
+
+.img5 {
+    width: 100px;
+    padding-left: 75%;
+}
+
+.img4holder {
+    padding-right: 70% ;
+}
+
+.vector {
+    position: relative;
+    left: 10.7%;
+    bottom: 35.4%;
+    width: 0.5%;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color:#667085;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 28px;
+    align-items: center;
+    color: #101828;
+    margin-top: 1.5%;
+    /* height: 33px; */
+    border: none;
+    background: #EAECF0;
+    border-radius: 8px;
+    padding: 1.8%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+
+h5 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+  }
+
+@media (min-width:320px)  {
+    .buttonHolder {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .header {
+        /* border: 1px solid; */
+        width: 30%;
+        margin-left: 47%;
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    
+    .share {
+        padding-left: 30%;
+    }
+    
+    .imgHolder {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1%;
+        padding-left: 37%;
+        
+    }
+    
+    .img2 {
+        width: 40px;
+        height: 39px;
+    }
+    
+    .img3 {
+        width: 24px;
+        height: 23.45px;
+    }
+    
+    .footerHolder {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-top: 0.1px solid #667085;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 5%;
+    }
+    
+    .img4 {
+        width: 100px;
+    }
+    
+    .img5 {
+        width: 100px;
+        padding-left: 75%;
+    }
+    
+    .img4holder {
+        padding-right: 70% ;
+    }
+    
+    .vector {
+        position: relative;
+        left: 10.7%;
+        bottom: 35.4%;
+        width: 0.5%;
+    }
+    
+    p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        color:#667085;
+    }
+    
+    a {
+        font-family: 'Inter', sans-serif;
+        font-weight: 550;
+        font-size: 13px;
+        line-height: 28px;
+        align-items: center;
+        color: #101828;
+        margin-top: 1.5%;
+        /* height: 33px; */
+        border: none;
+        background: #EAECF0;
+        border-radius: 8px;
+        padding: 1.8%;
+    }
+    
+    a:link {
+        text-decoration: none;
+      }
+      
+    a:visited {
+        text-decoration: none;
+      }
+      
+    a:hover {
+        text-decoration: none;
+      }
+      
+    a:active {
+        text-decoration: none;
+      }
+    
+    h5 {
+          font-family: 'Inter', sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 30px;
+      }
+}
